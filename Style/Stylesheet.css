@@ -1,0 +1,40 @@
+/*INDEX*/
+#logo {
+  position: absolute;}
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.227), rgba(0, 0, 0, 0.2)),
+      url(../imagenes/imagenesindex/Banner.jpg);
+    background-position: 40% 23%;
+    height: 15em;
+    display: flex;
+    align-content: flex-end;
+    background-repeat: no-repeat;
+  }
+  
+  #textoBanner{
+    color: white;
+    padding-top: 14%;
+    padding-left: 2%;
+  }
+
+  .footerbox {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(241, 203, 34);
+    width: 100%;
+  }
+  
+  .footerbox h5 {
+    font-size: 20px;
+    padding-top: 2px;
+    color: #2c3e50;
+  }
+
+  /*Aspectos generales*/
+
+  .negrita{
+    font-weight: bold;
+  }
+  .subrayado{
+    text-decoration: underline;
+  }
